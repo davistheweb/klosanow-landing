@@ -30,7 +30,7 @@ const NextBtn = ({
   );
 };
 
-export default function VisionSlide(): JSX.Element {
+export default function VisionSlide(): React.JSX.Element {
   const sliderRef = useRef<any>(null);
 
   const settings = {
