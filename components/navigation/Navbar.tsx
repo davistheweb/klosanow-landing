@@ -15,7 +15,6 @@ import {
   DrawerOverlay,
   DrawerCloseButton,
   DrawerContent,
-  Text,
   Button,
 } from "@chakra-ui/react";
 import Image from "next/image";

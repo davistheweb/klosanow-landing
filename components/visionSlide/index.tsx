@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import { Box, Heading, Text } from "@chakra-ui/react";
-import Image from "next/image";
 import Slider from "react-slick";
 import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import { aboutSlide } from "@/utils";

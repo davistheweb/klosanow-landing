@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -38,7 +38,7 @@ const SocialBtns = ({ children, label, href }: SocialBtnProps) => {
   );
 };
 
-export default function Footer(): JSX.Element {
+export default function Footer(): React.JSX.Element {
   return (
     <>
       <Box

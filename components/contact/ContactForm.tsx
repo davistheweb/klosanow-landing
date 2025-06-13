@@ -12,7 +12,7 @@ import { contactSchema } from "@/utils";
 import { useFormik } from "formik";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-// @ts-ignore
+// @ts-expect-error
 const MyPhoneInput = PhoneInput.default ? PhoneInput.default : PhoneInput;
 
 export default function ContactForm() {
