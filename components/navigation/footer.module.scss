@@ -1,0 +1,20 @@
+.footer_ul {
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    :first-child {
+      font-weight: 500;
+      color: #2a2a2a;
+    }
+
+    li:not(:first-child):hover {
+      color: #523ba3;
+    }
+  }
+  a:hover {
+    color: #523ba3;
+  }
+}
