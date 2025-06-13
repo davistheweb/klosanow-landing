@@ -5,7 +5,7 @@ import {
   Heading,
   Input,
   InputGroup,
-  InputElement,
+  InputRightElement,
   Text,
 } from "@chakra-ui/react";
 export default function Connect() {
@@ -43,29 +43,27 @@ export default function Connect() {
             px={{ base: "1rem", md: "3rem", lg: "3rem" }}
           >
             <InputGroup size="lg">
-              <>
-                <Input
-                  pr="4.5rem"
-                  type="email"
-                  placeholder="Your Email Address"
-                  variant="unstyled"
-                />
-                <InputElement width="4.5rem">
-                  <Button
-                    top="-10px"
-                    size="md"
-                    bg="primary.50"
-                    color="neutral.50"
-                    px={{ base: "2.8rem", md: "4rem" }}
-                    borderRadius="10px"
-                    _hover={{
-                      opacity: 0.8,
-                    }}
-                  >
-                    Subscribe
-                  </Button>
-                </InputElement>
-              </>
+              <Input
+                pr="4.5rem"
+                type="email"
+                placeholder="Your Email Address"
+                variant="unstyled"
+              />
+              <InputRightElement width="4.5rem">
+                <Button
+                  top="-10px"
+                  size="md"
+                  bg="primary.50"
+                  color="neutral.50"
+                  px={{ base: "2.8rem", md: "4rem" }}
+                  borderRadius="10px"
+                  _hover={{
+                    opacity: 0.8,
+                  }}
+                >
+                  Subscribe
+                </Button>
+              </InputRightElement>
             </InputGroup>
           </Box>
         </Box>

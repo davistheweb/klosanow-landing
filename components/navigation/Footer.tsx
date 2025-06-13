@@ -83,13 +83,18 @@ export default function Footer(): JSX.Element {
                 <Box>
                   <ul>
                     {navFooter.map(({ href, title }, index) => (
-                      <Link href={href} key={index} legacyBehavior>
-                        <a
+                      <Link
+                        href={href}
+                        style={{ cursor: "pointer", width: "100%" }}
+                        key={index}
+                        // legacyBehavior
+                      >
+                        {/* <a
                           key={title}
                           style={{ cursor: "pointer", width: "100%" }}
                         >
-                          {title}
-                        </a>
+                        </a> */}
+                        {title}
                       </Link>
                     ))}
                   </ul>
@@ -97,13 +102,13 @@ export default function Footer(): JSX.Element {
                 <Box>
                   <ul>
                     {authFooter?.map(({ href, title }, index) => (
-                      <Link href={href} key={index} legacyBehavior>
-                        <a
-                          key={title}
-                          style={{ cursor: "pointer", width: "100%" }}
-                        >
-                          {title}
-                        </a>
+                      <Link
+                        href={href}
+                        key={index}
+                        // legacyBehavior
+                        style={{ cursor: "pointer", width: "100%" }}
+                      >
+                        {title}
                       </Link>
                     ))}
                   </ul>

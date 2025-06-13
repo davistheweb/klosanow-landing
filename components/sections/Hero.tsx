@@ -11,6 +11,7 @@ import {
 // import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
+// import HeroImg from "/public/images/general/hero.png";
 
 export default function Hero(): React.JSX.Element {
   return (
@@ -18,7 +19,7 @@ export default function Hero(): React.JSX.Element {
       as={motion.div}
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
-      transition="0.8"
+      transition={{ duration: "0.8" }}
     >
       <Box
         mt={{ md: "8rem", lg: "8rem" }}
@@ -209,14 +210,14 @@ export default function Hero(): React.JSX.Element {
           >
             <Image
               loading="lazy"
-              src="/public/images/general/hero.png"
+              src="/images/general/hero.png"
               alt="hero-img"
               style={{
                 position: "absolute",
                 zIndex: "10",
               }}
-              width={100}
-              height={100}
+              width={500}
+              height={500}
             />
             <Box
               as="div"

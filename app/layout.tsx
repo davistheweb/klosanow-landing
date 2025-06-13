@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Provider } from "@/components/ui/provider";
+import { Providers } from "./providers";
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -24,11 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      // suppressHydrationWarning
+    >
       <body
       //  className={`${geistSans.variable} ${geistMono.variable}`}
       >
-        <Provider>{children}</Provider>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );

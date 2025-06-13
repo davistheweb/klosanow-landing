@@ -1,10 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import {
   Box,
   Flex,
   HStack,
-  Link,
+  Link as LinkComponent,
   IconButton,
   useDisclosure,
   Stack,
@@ -37,25 +38,28 @@ const NavLink = ({ children, href, onClose }: NavLinkProps) => {
         alignItems="center"
         mt="1rem"
       >
-        <Link
-          px={2}
-          py={1}
-          rounded="md"
-          color="primary.80"
-          fontWeight={400}
-          fontSize="16px"
-          href={href}
-          onClick={onClose}
-          _hover={{ textDecoration: "underline" }}
-        >
-          {children}
-        </Link>
+        
+          <LinkComponent
+          as={Link}
+            href={href}
+            px={2}
+            py={1}
+            rounded="md"
+            color="primary.80"
+            fontWeight={400}
+            fontSize="16px"
+            onClick={onClose}
+            _hover={{ textDecoration: "underline" }}
+          >
+            {children}
+          </LinkComponent>
+        
         {isActive ? <Image src={polygon} alt="polygon" loading="lazy" /> : ""}
       </Box>
     </>
   );
 };
-export default function Navbar(): JSX.Element {
+export default function Navbar(): React.JSX.Element {
   // toggle drawer on mobile
   const { isOpen, onOpen, onClose } = useDisclosure();
 
@@ -92,9 +96,9 @@ export default function Navbar(): JSX.Element {
         <Flex h={16} alignItems="center" justifyContent="space-between">
           <HStack spacing={8} alignItems={"center"}>
             <Box px={{ base: "none", md: "2rem" }}>
-              <Link href="/">
+              <LinkComponent href="/">
                 <Image src={Logo} alt="logo" loading="lazy" />
-              </Link>
+              </LinkComponent>
             </Box>
           </HStack>
           <Flex alignItems="center">
@@ -108,7 +112,7 @@ export default function Navbar(): JSX.Element {
           </Flex>
 
           {/* <Flex alignItems="center" justifyContent="space-between" gap="4rem">
-            <Link
+            <LinkComponent
               href="https://app.klosanow.com"
               isExternal
               display={{ base: "none", md: "block" }}
@@ -116,8 +120,8 @@ export default function Navbar(): JSX.Element {
               <Text color="primary.50" fontWeight={400} fontSize="16px">
                 Sign-up
               </Text>
-            </Link>
-            <Link
+            </LinkComponent>
+            <LinkComponent
               href="https://app.klosanow.com"
               isExternal
               display={{ base: "none", md: "block" }}
@@ -131,11 +135,11 @@ export default function Navbar(): JSX.Element {
               >
                 Login
               </Button>
-            </Link>
+            </LinkComponent>
           </Flex> */}
 
           <Flex alignItems="center" justifyContent="space-between" gap="4rem">
-            <Link href="#" display={{ base: "none", md: "block" }}>
+            <LinkComponent href="#" display={{ base: "none", md: "block" }}>
               <Button
                 bgColor="primary.50"
                 fontWeight={400}
@@ -145,7 +149,7 @@ export default function Navbar(): JSX.Element {
               >
                 Join waitlist
               </Button>
-            </Link>
+            </LinkComponent>
           </Flex>
           <IconButton
             variant="outline"
@@ -168,9 +172,9 @@ export default function Navbar(): JSX.Element {
               <DrawerContent bgColor="neutral.50">
                 <DrawerCloseButton color="primary.70" />
                 <DrawerHeader>
-                  <Link href="/">
+                  <LinkComponent href="/">
                     <Image src={Logo} alt="logo" loading="lazy" />
-                  </Link>
+                  </LinkComponent>
                 </DrawerHeader>
                 <DrawerBody>
                   <Stack as={"nav"} spacing={4}>

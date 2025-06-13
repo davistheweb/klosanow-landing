@@ -4,7 +4,7 @@ import React from "react";
 import { Box, Heading, Text } from "@chakra-ui/react";
 import { ContactForm, FaqElement } from "@/components/contact";
 import Image from "next/image";
-import contactImg from "/public/images/general/contact.png";
+// import contactImg from "/public/images/general/contact.png";
 
 export default function ContactPage() {
   return (
@@ -66,7 +66,13 @@ export default function ContactPage() {
               <ContactForm />
             </Box>
             <Box display={{ base: "none", md: "block" }}>
-              <Image loading="lazy" src={contactImg} alt="connect-img" />
+              <Image
+                loading="lazy"
+                src="/images/general/contact.png"
+                alt="connect-img"
+                width={500}
+                height={500}
+              />
             </Box>
           </Box>
         </Box>

@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
 import Image from "next/image";
+// import empowerImg from "/public/images/general/frame.png";
 
 export default function Empower() {
   return (
@@ -62,10 +63,10 @@ export default function Empower() {
           <Flex flex={1} position="relative">
             <Image
               loading="lazy"
-              src="/public/images/general/frame.png"
+              src="/images/general/frame.png"
               alt="empower-img"
-              width={100}
-              height={100}
+              width={500}
+              height={500}
             />
           </Flex>
         </Stack>

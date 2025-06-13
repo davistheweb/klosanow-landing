@@ -3,9 +3,9 @@
 import React from "react";
 import { Box, Text, Heading } from "@chakra-ui/react";
 import Image from "next/image";
-import moonSvg from "/public/images/about/moon.svg";
-import stackImg from "/public/images/about/stack.png";
-import cultureImg from "/public/images/about/culture.png";
+// import moonSvg from "/public/images/about/moon.svg";
+// import stackImg from "/public/images/about/stack.png";
+// import cultureImg from "/public/images/about/culture.png";
 import VisionSlide from "@/components/visionSlide";
 
 export default function AboutPage() {
@@ -27,7 +27,12 @@ export default function AboutPage() {
             top={{ base: "5rem", md: "10rem" }}
             right={{ base: "2rem", md: "14rem" }}
           >
-            <Image src={moonSvg} alt="moon" />
+            <Image
+              src="/images/about/moon.svg"
+              width={100}
+              height={100}
+              alt="moon"
+            />
           </Box>
           <Heading
             color="black.60"
@@ -55,7 +60,13 @@ export default function AboutPage() {
           </Text>
 
           <Box mt={{ md: "-8rem" }}>
-            <Image src={stackImg} alt="stack" loading="lazy" />
+            <Image
+              src="/images/about/stack.png"
+              width={800}
+              height={700}
+              alt="stack"
+              loading="lazy"
+            />
 
             <Box
               as="div"
@@ -165,7 +176,13 @@ export default function AboutPage() {
             </Box>
 
             <Box mt="2rem">
-              <Image loading="lazy" src={cultureImg} alt="culture" />
+              <Image
+                loading="lazy"
+                src="/images/about/culture.png"
+                alt="culture"
+                width={500}
+                height={500}
+              />
             </Box>
           </Box>
         </Box>
