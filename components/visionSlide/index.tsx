@@ -6,32 +6,25 @@ import { aboutSlide } from "@/utils";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const PrevBtn = ({
-  onClick,
-}: {
-  onClick: React.MouseEventHandler<HTMLElement>;
-}) => {
-  return (
-    <Box as="button" onClick={onClick}>
-      <ChevronLeftIcon color="primary.50" boxSize={8} />
-    </Box>
-  );
+type NavBtnProps = {
+  onClick?: () => void;
 };
 
-const NextBtn = ({
-  onClick,
-}: {
-  onClick: React.MouseEventHandler<HTMLElement>;
-}) => {
-  return (
-    <Box as="button" onClick={onClick}>
-      <ChevronRightIcon color="primary.50" boxSize={8} />
-    </Box>
-  );
-};
+const PrevBtn: React.FC<NavBtnProps> = ({ onClick }) => (
+  <Box as="button" onClick={onClick}>
+    <ChevronLeftIcon color="primary.50" boxSize={8} />
+  </Box>
+);
+
+const NextBtn: React.FC<NavBtnProps> = ({ onClick }) => (
+  <Box as="button" onClick={onClick}>
+    <ChevronRightIcon color="primary.50" boxSize={8} />
+  </Box>
+);
+
 
 export default function VisionSlide(): React.JSX.Element {
-  const sliderRef = useRef<any>(null);
+  const sliderRef = useRef<Slider | null>(null);
 
   const settings = {
     infinte: true,
@@ -119,7 +112,7 @@ export default function VisionSlide(): React.JSX.Element {
         justifyContent="center"
         alignItems="center"
       >
-        <PrevBtn onClick={sliderRef?.current?.slickPrev} />
+        <PrevBtn onClick={() => sliderRef.current?.slickPrev()} />
         <Box
           as="span"
           w="28px"
@@ -127,7 +120,7 @@ export default function VisionSlide(): React.JSX.Element {
           borderRadius="50px"
           bgColor="primary.20"
         ></Box>
-        <NextBtn onClick={sliderRef?.current?.slickNext} />
+        <NextBtn onClick={() => sliderRef.current?.slickNext()} />
       </Box>
     </>
   );

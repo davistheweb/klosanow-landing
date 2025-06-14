@@ -9,16 +9,31 @@ import {
   Textarea,
 } from "@chakra-ui/react";
 import { contactSchema } from "@/utils";
-import { useFormik } from "formik";
+import { useFormik, FormikHelpers } from "formik";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 // @ts-expect-error: This prop is passed dynamically and is type-checked elsewhere
 const MyPhoneInput = PhoneInput.default ? PhoneInput.default : PhoneInput;
 
+type ContactFormValues = {
+  phone: string;
+  email: string;
+  message: string;
+};
+
 export default function ContactForm() {
-  const handleSubmit = (values: object, actions: any) => {
+  const handleSubmit = (
+    values: ContactFormValues,
+    actions: FormikHelpers<ContactFormValues>
+  ) => {
     console.log(values);
-    actions.resetForm({ values: "" });
+    actions.resetForm({
+      values: {
+        phone: "",
+        email: "",
+        message: "",
+      },
+    });
   };
 
   const formik = useFormik({
