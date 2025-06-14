@@ -19,7 +19,7 @@ export const navFooter = [
   { title: "About Us", href: "/about" },
   { title: "Contact Us", href: "/contact" },
   { title: "Privacy Policy", href: "/privacy" },
-  { title: "Terms and Conditions", href: "terms" },
+  { title: "Terms and Conditions", href: "/terms" },
 ];
 
 export const authFooter: { title: string; href: string }[] | null = [
