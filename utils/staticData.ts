@@ -18,8 +18,8 @@ export const navFooter = [
   { title: "Home", href: "/" },
   { title: "About Us", href: "/about" },
   { title: "Contact Us", href: "/contact" },
-  { title: "Privacy Policy", href: "#" },
-  { title: "Terms and Conditions", href: "#" },
+  { title: "Privacy Policy", href: "/privacy" },
+  { title: "Terms and Conditions", href: "terms" },
 ];
 
 export const authFooter: { title: string; href: string }[] | null = [
