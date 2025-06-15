@@ -56,39 +56,20 @@ export default function Hero(): React.JSX.Element {
             <Stack spacing={6} w={"full"} maxW={"lg"}>
               <Heading
                 fontSize={{ base: "3xl", md: "4xl" }}
-                textAlign={{ base: "center", md: "center", lg: "justify" }}
+                textAlign={{ base: "start"}}
                 as={motion.h1}
                 initial={{ y: -100 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: "0.8" }}
               >
                 <Text
-                  as="span"
-                  fontSize="lg"
-                  ml={"2rem"}
-                  position={"relative"}
-                  color={"secondary.30"}
-                  _after={{
-                    content: '""',
-                    width: "40px",
-                    height: "1px",
-                    position: "absolute",
-                    left: "-30%",
-                    bottom: "0",
-                    bg: "secondary.30",
-                  }}
-                >
-                  Why Join Us ?
-                </Text>
-
-                <Text
                   color={"primary.100"}
                   fontWeight={700}
                   lineHeight={"138%"}
                 >
-                  Online teaching and
+                  Online teaching and learning just got seamless with Klosanow
                 </Text>
-                <Text
+                {/* <Text
                   color={"primary.100"}
                   fontWeight={700}
                   lineHeight={"138%"}
@@ -101,7 +82,7 @@ export default function Hero(): React.JSX.Element {
                   lineHeight={"138%"}
                 >
                   seamless with Klosanow
-                </Text>
+                </Text> */}
               </Heading>
               <Text
                 as={motion.div}
@@ -116,7 +97,7 @@ export default function Hero(): React.JSX.Element {
               >
                 Create engaging video learning content, send it to your learning
                 community and stay connected 24/7 through the messaging feature
-                on our platform.
+                on the platform.
               </Text>
               {/* <Stack
                 as={motion.div}
