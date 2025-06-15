@@ -66,7 +66,7 @@ export default function Hero(): React.JSX.Element {
                   color={"primary.100"}
                   fontWeight={700}
                   lineHeight={"138%"}
-                  fontSize={{ base: "2rem", md: "4.5rem" }}
+                  fontSize={{ base: "1.7rem", lg: "2.5rem" }}
                 >
                   Online teaching and learning just got seamless with Klosanow
                 </Text>
