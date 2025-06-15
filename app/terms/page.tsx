@@ -98,18 +98,19 @@ const TermsPage: React.FC = () => (
       <Text mt={{ base: "1rem", md: "1rem" }}>
         In the course of using our Service, you may create, upload, or post
         content, including videos, photos, audio, drawings, graphics, text,
-        data, and other information (collectively, the "User Content"). When you
-        post User Content to our Service, you grant Klosanow, a sub-licensable,
-        royalty-free, fully-paid, worldwide license to host, use, distribute,
-        reproduce, modify, publish, transmit, prepare derivative works of,
-        publicly perform and display your User Content (consistent with your
-        privacy settings), including without limitation for promoting and
-        redistributing part or all of our Service (and derivative works thereof)
-        in any media formats and through any media channels. Because your User
-        Content may be viewed or accessed by other Klosanow users, you also
-        hereby grant each user of the Service a non-exclusive license to access
-        your User Content through the Service, and to view such User Content
-        solely for personal, non-commercial purpose.
+        data, and other information (collectively, the &quot;User
+        Content&quot;). When you post User Content to our Service, you grant
+        Klosanow, a sub-licensable, royalty-free, fully-paid, worldwide license
+        to host, use, distribute, reproduce, modify, publish, transmit, prepare
+        derivative works of, publicly perform and display your User Content
+        (consistent with your privacy settings), including without limitation
+        for promoting and redistributing part or all of our Service (and
+        derivative works thereof) in any media formats and through any media
+        channels. Because your User Content may be viewed or accessed by other
+        Klosanow users, you also hereby grant each user of the Service a
+        non-exclusive license to access your User Content through the Service,
+        and to view such User Content solely for personal, non-commercial
+        purpose.
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
         You represent and warrant, and can demonstrate to Company’s full
@@ -156,7 +157,7 @@ const TermsPage: React.FC = () => (
         or advertisements) on or through the Service.
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
-        You will not collect users' content or information, or otherwise access
+        You will not collect user&apos;s content or information, or otherwise access
         the Service, using automated means (such as harvesting bots, robots,
         spiders, or scrapers) without our prior permission.
       </Text>
@@ -271,7 +272,7 @@ const TermsPage: React.FC = () => (
         The Service may permit you to link to other websites or resources on the
         Internet, and other websites or resources may contain links to the Site.
         When you access third party websites, you do so at your own risk. These
-        other websites are not under Company's control, and you acknowledge that
+        other websites are not under Company&apos;s control, and you acknowledge that
         Company is not responsible or liable for the content, functions,
         accuracy, legality, appropriateness or any other aspect of such websites
         or resources. The inclusion of any such link does not imply endorsement
@@ -308,7 +309,7 @@ const TermsPage: React.FC = () => (
         You will indemnify, defend, and hold the Company, its parent companies,
         partners, subsidiaries, affiliates, officers, and employees not
         responsible for damages, losses, demands, liabilities, settlements,
-        costs and expenses of any kind (including reasonable attorneys' fees)
+        costs and expenses of any kind (including reasonable attorneys&apos; fees)
         from any claim or demand made by any third party relating to or arising
         out of (i) your access to, use, or misuse of the Service, (ii) your
         violation of this Agreement (including any failure to obtain or provide
@@ -347,7 +348,7 @@ const TermsPage: React.FC = () => (
       <Text mt={{ base: "1rem", md: "2rem" }}>
         In no event shall Klosanow or its affiliates be liable for any direct,
         indirect, incidental, consequential, or special damages arising out of
-        or in connection with the use or inability to use the App. Klosanow's
+        or in connection with the use or inability to use the App. Klosanow&apos;s
         liability, if any, shall be limited to the maximum extent permitted by
         applicable law.
       </Text>
