@@ -27,7 +27,7 @@ export default function Hero(): React.JSX.Element {
       >
         <Stack
           direction={{ base: "column", md: "row" }}
-          px={{ base: "1rem", md: "6rem" }}
+          px={{ base: "0.6rem", md: "6rem" }}
           position="relative"
           as={motion.div}
         >
