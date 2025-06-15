@@ -56,7 +56,7 @@ export default function Hero(): React.JSX.Element {
             <Stack spacing={6} w={"full"} maxW={"lg"}>
               <Heading
                 fontSize={{ base: "3xl", md: "4xl" }}
-                textAlign={{ base: "start"}}
+                textAlign={{ base: "start" }}
                 as={motion.h1}
                 initial={{ y: -100 }}
                 whileInView={{ y: 0 }}
@@ -66,6 +66,7 @@ export default function Hero(): React.JSX.Element {
                   color={"primary.100"}
                   fontWeight={700}
                   lineHeight={"138%"}
+                  fontSize={{ base: "1rem", md: "1.5rem" }}
                 >
                   Online teaching and learning just got seamless with Klosanow
                 </Text>
@@ -93,7 +94,7 @@ export default function Hero(): React.JSX.Element {
                 fontSize={"18px"}
                 mt={{ base: "1.5rem", md: "1.5rem" }}
                 mb=".3rem"
-                fontWeight={400}
+                fontWeight={{ base: 500, lg: 400 }}
               >
                 Create engaging video learning content, send it to your learning
                 community and stay connected 24/7 through the messaging feature
