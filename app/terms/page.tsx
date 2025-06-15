@@ -12,6 +12,7 @@ const TermsPage: React.FC = () => (
       alignItems="center"
       flexDirection="column"
       mt={{ base: "1rem", md: "6rem" }}
+      px={{ base: "2rem", md: "4rem" }}
     >
       <Heading textAlign="center" fontSize={{ base: "2xl", md: "4xl" }}>
         <Text>Empowering Learners and Tutors Through Online Education</Text>
