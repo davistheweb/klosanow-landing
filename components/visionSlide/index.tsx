@@ -22,7 +22,6 @@ const NextBtn: React.FC<NavBtnProps> = ({ onClick }) => (
   </Box>
 );
 
-
 export default function VisionSlide(): React.JSX.Element {
   const sliderRef = useRef<Slider | null>(null);
 

@@ -13,7 +13,7 @@ const TermsPage: React.FC = () => (
       flexDirection="column"
       mt={{ base: "1rem", md: "6rem" }}
     >
-      <Heading fontSize={{ base: "2xl", md: "4xl" }}>
+      <Heading textAlign="center" fontSize={{ base: "2xl", md: "4xl" }}>
         <Text>Empowering Learners and Tutors Through Online Education</Text>
       </Heading>
     </Box>
@@ -157,9 +157,9 @@ const TermsPage: React.FC = () => (
         or advertisements) on or through the Service.
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
-        You will not collect user&apos;s content or information, or otherwise access
-        the Service, using automated means (such as harvesting bots, robots,
-        spiders, or scrapers) without our prior permission.
+        You will not collect user&apos;s content or information, or otherwise
+        access the Service, using automated means (such as harvesting bots,
+        robots, spiders, or scrapers) without our prior permission.
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
         You will not engage in unlawful multi-level marketing, such as a pyramid
@@ -272,8 +272,8 @@ const TermsPage: React.FC = () => (
         The Service may permit you to link to other websites or resources on the
         Internet, and other websites or resources may contain links to the Site.
         When you access third party websites, you do so at your own risk. These
-        other websites are not under Company&apos;s control, and you acknowledge that
-        Company is not responsible or liable for the content, functions,
+        other websites are not under Company&apos;s control, and you acknowledge
+        that Company is not responsible or liable for the content, functions,
         accuracy, legality, appropriateness or any other aspect of such websites
         or resources. The inclusion of any such link does not imply endorsement
         by Company or any association with its operators. You further
@@ -309,11 +309,11 @@ const TermsPage: React.FC = () => (
         You will indemnify, defend, and hold the Company, its parent companies,
         partners, subsidiaries, affiliates, officers, and employees not
         responsible for damages, losses, demands, liabilities, settlements,
-        costs and expenses of any kind (including reasonable attorneys&apos; fees)
-        from any claim or demand made by any third party relating to or arising
-        out of (i) your access to, use, or misuse of the Service, (ii) your
-        violation of this Agreement (including any failure to obtain or provide
-        any necessary consent and/or violation of applicable laws or
+        costs and expenses of any kind (including reasonable attorneys&apos;
+        fees) from any claim or demand made by any third party relating to or
+        arising out of (i) your access to, use, or misuse of the Service, (ii)
+        your violation of this Agreement (including any failure to obtain or
+        provide any necessary consent and/or violation of applicable laws or
         regulations), or (iii) the infringement by you or any third party using
         your account of any intellectual property or other right of any person
         or entity, including in connection with your User Content.
@@ -348,9 +348,9 @@ const TermsPage: React.FC = () => (
       <Text mt={{ base: "1rem", md: "2rem" }}>
         In no event shall Klosanow or its affiliates be liable for any direct,
         indirect, incidental, consequential, or special damages arising out of
-        or in connection with the use or inability to use the App. Klosanow&apos;s
-        liability, if any, shall be limited to the maximum extent permitted by
-        applicable law.
+        or in connection with the use or inability to use the App.
+        Klosanow&apos;s liability, if any, shall be limited to the maximum
+        extent permitted by applicable law.
       </Text>
       <Heading
         fontWeight={700}

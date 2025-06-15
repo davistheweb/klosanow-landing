@@ -24,7 +24,7 @@ type ContactFormValues = {
 export default function ContactForm() {
   const handleSubmit = (
     values: ContactFormValues,
-    actions: FormikHelpers<ContactFormValues>
+    actions: FormikHelpers<ContactFormValues>,
   ) => {
     console.log(values);
     actions.resetForm({

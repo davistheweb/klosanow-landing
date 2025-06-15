@@ -13,7 +13,7 @@ const PrivacyPage: React.FC = () => (
       flexDirection="column"
       mt={{ base: "1rem", md: "6rem" }}
     >
-      <Heading fontSize={{ base: "2xl", md: "4xl" }}>
+      <Heading textAlign="center" fontSize={{ base: "2xl", md: "4xl" }}>
         <Text>Empowering Learners and Tutors Through Online Education</Text>
       </Heading>
     </Box>

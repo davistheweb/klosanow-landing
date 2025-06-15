@@ -37,22 +37,21 @@ const NavLink = ({ children, href, onClose }: NavLinkProps) => {
         alignItems="center"
         mt="1rem"
       >
-        
-          <LinkComponent
+        <LinkComponent
           as={Link}
-            href={href}
-            px={2}
-            py={1}
-            rounded="md"
-            color="primary.80"
-            fontWeight={400}
-            fontSize="16px"
-            onClick={onClose}
-            _hover={{ textDecoration: "underline" }}
-          >
-            {children}
-          </LinkComponent>
-        
+          href={href}
+          px={2}
+          py={1}
+          rounded="md"
+          color="primary.80"
+          fontWeight={400}
+          fontSize="16px"
+          onClick={onClose}
+          _hover={{ textDecoration: "underline" }}
+        >
+          {children}
+        </LinkComponent>
+
         {isActive ? <Image src={polygon} alt="polygon" loading="lazy" /> : ""}
       </Box>
     </>
