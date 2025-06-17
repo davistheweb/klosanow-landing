@@ -117,10 +117,10 @@ export const faqItems: FAQItem[] = [
   },
   {
     title: "What browser does the other App's feature work with?",
-    text: 'All the other App\'s features  work both on the desktop and mobile browsers. Only the  "create lesson" feature work with desktop browser.',
+    text: 'All the other App\'s features  work both on the desktop and mobile browsers. Only the  "Create a lesson" feature work on the desktop browser.',
   },
   {
     title: "Is using the platform free?",
-    text: "For a start, we've launched with the free version. The free edition allows you save drafts, create lesson, view lessons, create a study group, send lessons & messages to numerous individual chats and 50mb of storage space.",
+    text: "Yes, we've launched with the free version. The free edition allows you save drafts, create lesson, view lessons, create a study group, send lessons & messages to numerous individual chats and 50mb of storage space.",
   },
 ];

@@ -23,7 +23,7 @@ export const FaqElement: React.FC = () => (
     <Box as="div">
       <Accordion
         bgColor="neutral.50"
-        width={{ base: "100%", md: "500", lg: "900px" }}
+        width={{ base: "100%", md: "500px", lg: "900px" }}
         py="3rem"
         px="3rem"
         allowToggle
