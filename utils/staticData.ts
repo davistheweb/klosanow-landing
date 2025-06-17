@@ -86,6 +86,11 @@ export const aboutSlide = [
     title: "Time Flexibility",
     desc: "Tutors get to teach when they want, learners learn when they can.",
   },
+  {
+    id: 4,
+    title: "Personalized Learning",
+    desc: "Tutors can create learning contents in line with their learners' preferred language, curriculum and learning style.",
+  },
 ];
 
 interface FAQItem {

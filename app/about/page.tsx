@@ -160,18 +160,6 @@ export default function AboutPage() {
                   online education and pursue their learning goals with
                   enthusiasm.
                 </Text>
-                <Text
-                  lineHeight="144.5%;"
-                  color="black.50"
-                  mt="1rem"
-                  fontSize="18px"
-                >
-                  <Text as="u" fontWeight={600}>
-                    Teamwork:
-                  </Text>{" "}
-                  Klosanow values teamwork and collaboration among its employees
-                  to achieve common goals and objectives.
-                </Text>
               </Box>
             </Box>
 
