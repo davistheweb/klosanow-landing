@@ -55,7 +55,7 @@ export default function Connect() {
                   size="md"
                   bg="primary.50"
                   color="neutral.50"
-                  px={{ base: "3.5rem", md: "4rem" }}
+                  px={{ base: "3rem", md: "4rem" }}
                   borderRadius="10px"
                   _hover={{
                     opacity: 0.8,
