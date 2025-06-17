@@ -57,7 +57,7 @@ export default function Footer(): React.JSX.Element {
             className={styles.footer_ul}
           >
             <Box>
-              <Image src={Logo} alt="logo" />
+              <Image src={Logo} alt="logo" width={140} height={100} loading="lazy" />
               <Box width={{ base: "100%", md: "404px" }} mt="2rem">
                 <Text color="black.40">
                   Bridging the Gap Between Learners and Tutors
