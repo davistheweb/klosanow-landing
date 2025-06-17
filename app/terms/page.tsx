@@ -5,7 +5,7 @@ import { Text, Box, Heading } from "@chakra-ui/react";
 
 const TermsPage: React.FC = () => (
   <>
-    <Box
+    {/* <Box
       //   bgColor={"primary.50"}
       display="flex"
       justifyContent="center"
@@ -17,7 +17,7 @@ const TermsPage: React.FC = () => (
       <Heading textAlign="center" fontSize={{ base: "2xl", md: "4xl" }}>
         <Text>Empowering Learners and Tutors Through Online Education</Text>
       </Heading>
-    </Box>
+    </Box> */}
     <Box
       as="div"
       mt={{ base: "1rem", md: "3rem" }}
@@ -25,7 +25,7 @@ const TermsPage: React.FC = () => (
       py="3rem"
     >
       <Heading fontWeight={700} fontSize={{ base: "3xl", md: "1xl" }}>
-        <Text>Terms of Service</Text>
+        <Text>Terms of Use</Text>
       </Heading>
       <Text mt={{ base: "1rem", md: "2rem" }}>
         Welcome to Klosanow, an edtech web application that empowers teachers to
