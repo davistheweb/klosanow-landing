@@ -59,8 +59,8 @@ export default function Empower() {
             <Box
               as="div"
               position="absolute"
-              width={{ base: "350px", md: "370px", lg: "400px" }}
-              height={{ base: "351px", md: "371px", lg: "401px" }}
+              width={{ base: "340px", md: "360px", lg: "400px" }}
+              height={{ base: "341px", md: "361px", lg: "401px" }}
               bgColor="neutral.30"
               borderRadius="full"
               top="20%"
