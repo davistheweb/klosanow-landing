@@ -46,7 +46,7 @@ export default function Empower() {
               >
                 Our online teaching and learning platform is both effective and
                 efficient, enabling learners access learning contents created by
-                tutors seamlessly
+                tutors.
               </Text>
             </Stack>
           </Flex>

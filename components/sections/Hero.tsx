@@ -94,7 +94,6 @@ export default function Hero(): React.JSX.Element {
                 fontSize={"18px"}
                 mt={{ base: "1.5rem", md: "1.5rem" }}
                 mb=".3rem"
-                fontWeight={{ base: 500, lg: 400 }}
               >
                 Create engaging video learning content, send it to your learning
                 community and stay connected 24/7 through the messaging feature

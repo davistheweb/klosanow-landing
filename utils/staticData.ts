@@ -50,7 +50,7 @@ export const features = [
   },
   {
     src: "/images/features/videoIcon.png",
-    desc: "Learners access the video lessons by watching online  or downloading for offline access.",
+    desc: "Learners access the video lessons by watching on the platform",
   },
   {
     src: "/images/features/msgIcon.png",
