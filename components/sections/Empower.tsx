@@ -40,9 +40,8 @@ export default function Empower() {
                 mb=".3rem"
                 fontWeight={400}
               >
-                The Klosanow platform is both effective and
-                efficient, enabling learners access learning contents created by
-                tutors.
+                The Klosanow platform is both effective and efficient, enabling
+                learners access learning contents created by tutors.
               </Text>
             </Stack>
           </Flex>
@@ -57,13 +56,23 @@ export default function Empower() {
             mr={{ md: "12rem" }}
           ></Box>
           <Flex flex={1} position="relative">
-            <Image
-              loading="lazy"
-              src="/images/general/frame.png"
-              alt="empower-img"
-              width={500}
-              height={500}
+            <Box
+              position="absolute"
+              width="400px"
+              height="401px"
+              bgColor="neutral.30"
+              borderRadius="full"
+              top="20%"
             />
+            <Box as="div" zIndex={10}>
+              <Image
+                loading="lazy"
+                src="/images/general/frame.png"
+                alt="empower-img"
+                width={500}
+                height={500}
+              />
+            </Box>
           </Flex>
         </Stack>
       </Box>
