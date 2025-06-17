@@ -147,7 +147,7 @@ export default function Hero(): React.JSX.Element {
                 initial={{ y: 100 }}
                 whileInView={{ y: 0 }}
                 transition={{ duration: "0.8" }}
-                direction={{ base: "row"}}
+                direction={{ base: "row" }}
                 spacing={4}
               >
                 <Button
