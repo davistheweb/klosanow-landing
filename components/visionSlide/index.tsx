@@ -78,6 +78,7 @@ export default function VisionSlide(): React.JSX.Element {
                     fontWeight={500}
                     textAlign={{ base: "center" }}
                     color="black.60"
+                    zIndex={20}
                   >
                     {title}
                   </Heading>
