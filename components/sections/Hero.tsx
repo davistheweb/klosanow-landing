@@ -92,7 +92,7 @@ export default function Hero(): React.JSX.Element {
                 transition={{ duration: "0.8" }}
                 color={"black.100"}
                 fontSize={"18px"}
-                mt={{ base: "1.5rem", md: "1.5rem" }}
+                mt={{ base: "1rem", md: "1.5rem" }}
                 mb=".3rem"
               >
                 Create engaging video learning content, send it to your learning
