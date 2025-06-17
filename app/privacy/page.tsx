@@ -156,7 +156,7 @@ const PrivacyPage: React.FC = () => (
         need to disclose personal information where, in good faith, we think it
         is necessary to protect the rights, property, or safety of Klosanow, our
         employees, our community, or others, or to prevent violations of our
-        Terms of Use (terms) or other applicable agreements. This includes,
+        Terms of Use or other applicable agreements. This includes,
         without limitation, exchanging information with other companies and
         organizations for fraud protection or responding to government requests.
       </Text>
