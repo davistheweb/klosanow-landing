@@ -105,7 +105,7 @@ export const faqItems: FAQItem[] = [
   },
   {
     title: "Who is it for?",
-    text: "Klosanow is for tutors and learners across all levels of education. \n Primary - Secondary - Tertiary - Corporate Education.",
+    text: "Klosanow is for tutors and learners across all levels of education. <br> Primary - Secondary - Tertiary - Corporate Education.",
   },
   {
     title: "What kind of App is Klosanow? ",
