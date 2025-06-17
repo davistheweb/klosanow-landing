@@ -47,6 +47,7 @@ export const FaqElement: React.FC = () => (
               borderBottom="1px"
               borderTop="1px"
               borderColor="neutral.5"
+              style={{ whiteSpace: "pre-line" }}
             >
               {text}
             </AccordionPanel>
