@@ -334,7 +334,7 @@ const TermsPage: React.FC = () => (
         LIMITATION, ANY IMPLIED WARRANTY OF QUALITY, ACCURACY, PERFORMANCE,
         AVAILABILITY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE
         OR NON-INFRINGEMENT. WITHOUT LIMITING THE GENERALITY OF THE
-        AFOREMENTIONED, EDPUZZLE DOES NOT ACKNOWLEDGE OR AFFIRM THAT THE
+        AFOREMENTIONED, KLOSANOW DOES NOT ACKNOWLEDGE OR AFFIRM THAT THE
         SERVICES WILL MEET YOUR REQUIREMENTS, BE ERROR FREE OR UNINTERRUPTED,
         THAT ALL ERRORS WILL BE CORRECTED OR THAT THE SERVICES ARE FREE FROM
         VIRUSES OR OTHER HARMFUL COMPONENTS.
@@ -372,7 +372,7 @@ const TermsPage: React.FC = () => (
         <Text>Contact Us</Text>
       </Heading>
       <Text mt={{ base: "1rem", md: "2rem" }}>
-        If You have any questions about this Privacy Notice, please contact Us
+        If You have any questions about this Terms of Use, please contact Us
         at example@email.com
       </Text>
     </Box>

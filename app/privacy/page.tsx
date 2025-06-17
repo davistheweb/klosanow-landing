@@ -5,7 +5,7 @@ import { Text, Box, Heading } from "@chakra-ui/react";
 
 const PrivacyPage: React.FC = () => (
   <>
-    <Box
+    {/* <Box
       //   bgColor={"primary.50"}
       display="flex"
       justifyContent="center"
@@ -17,7 +17,7 @@ const PrivacyPage: React.FC = () => (
       <Heading textAlign="center" fontSize={{ base: "2xl", md: "4xl" }}>
         <Text>Empowering Learners and Tutors Through Online Education</Text>
       </Heading>
-    </Box>
+    </Box> */}
     <Box
       as="div"
       mt={{ base: "1rem", md: "3rem" }}
@@ -72,19 +72,19 @@ const PrivacyPage: React.FC = () => (
         <Text>Information Collection and How it is Used</Text>
       </Heading>
       <Text mt={{ base: "1rem", md: "2rem" }}>
-        -Personal Information such as your name, username, email address,phone
-        number, password
+        <b>•</b> Personal Information such as your name, username, email
+        address,phone number, password
       </Text>
       <Text mt={{ base: "1rem", md: "2rem" }}>
-        -Information Sent to Us by Your Web Browser. We collect information that
-        is sent to us automatically by your Web browser. This information
-        typically includes your IP address, the name and version of your
-        operating system, the name and version of your browser, the date and
-        time of your visit and the pages on this Site you visit. Please check
-        your browser if you want to learn what information your browser sends or
-        how to change your settings. This information does not identify you
-        personally. Generally, we use this information to improve this Site and
-        make it more compatible with the technology used by our visitors.
+        <b>•</b> Information Sent to Us by Your Web Browser. We collect
+        information that is sent to us automatically by your Web browser. This
+        information typically includes your IP address, the name and version of
+        your operating system, the name and version of your browser, the date
+        and time of your visit and the pages on this Site you visit. Please
+        check your browser if you want to learn what information your browser
+        sends or how to change your settings. This information does not identify
+        you personally. Generally, we use this information to improve this Site
+        and make it more compatible with the technology used by our visitors.
         However, we may link information sent by your browser to information
         that identifies you personally. For example, if you are a registered
         member, we may link your IP address to information that identifies you
@@ -93,10 +93,10 @@ const PrivacyPage: React.FC = () => (
         use that information to trace and identify you.
       </Text>
       <Text mt={{ base: "1rem", md: "2rem" }}>
-        -Cookies and Other Similar Technologies: We (or our third-party service
-        providers) may usevarious technologies to collect and store information
-        when you visit our Service, including clear GIFs (also known as “web
-        beacons”), “tags”, “scripts”, and “cookies”. We also make use of
+        <b>•</b> Cookies and Other Similar Technologies: We (or our third-party
+        service providers) may usevarious technologies to collect and store
+        information when you visit our Service, including clear GIFs (also known
+        as “web beacons”), “tags”, “scripts”, and “cookies”. We also make use of
         persistent secure cookies: a persistent cookie remains after you close
         your browser (although they can be removed) and may be used by your
         browser to identify you on subsequent visits to the Service. We may also
@@ -106,11 +106,11 @@ const PrivacyPage: React.FC = () => (
         you, and to help the Service work better for you.
       </Text>
       <Text mt={{ base: "1rem", md: "2rem" }}>
-        -Usage Information: Like most online services, when you use our Service,
-        we automatically collect and store certain information in our server
-        logs. This information helps us make decisions about what we should work
-        on next - for example, by showing which features are most or least
-        popular.
+        <b>•</b> Usage Information: Like most online services, when you use our
+        Service, we automatically collect and store certain information in our
+        server logs. This information helps us make decisions about what we
+        should work on next - for example, by showing which features are most or
+        least popular.
       </Text>
       <Text mt={{ base: "1rem", md: "2rem" }}>Examples include:</Text>
       <Text mt={{ base: "1rem", md: "2rem" }}>
@@ -138,9 +138,9 @@ const PrivacyPage: React.FC = () => (
         such as:
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
-        •Aggregated Information and Non-Identifying Information: We may share
-        aggregated, nonpersonally identifiable information publicly, including
-        with uselmrs, partners or the press in order to, for example,
+        <b>•</b> Aggregated Information and Non-Identifying Information: We may
+        share aggregated, nonpersonally identifiable information publicly,
+        including with uselmrs, partners or the press in order to, for example,
         demonstrate how Klosanow is used, spot industry trends, or to provide
         marketing materials for Klosanow. Any aggregated information shared this
         way will not contain any personal information. If we choose to share
@@ -150,13 +150,13 @@ const PrivacyPage: React.FC = () => (
         that may pose a risk of re-identification.
       </Text>
       <Text mt={{ base: "1rem", md: "1rem" }}>
-        •Legal Requirements: We may disclose personal information if we have a
-        good faith belief that doing so is necessary to comply with the law,
-        such as complying with a court order or other legal process. We may need
-        to disclose personal information where, in good faith, we think it is
-        necessary to protect the rights, property, or safety of Klosanow, our
+        <b>•</b> Legal Requirements: We may disclose personal information if we
+        have a good faith belief that doing so is necessary to comply with the
+        law, such as complying with a court order or other legal process. We may
+        need to disclose personal information where, in good faith, we think it
+        is necessary to protect the rights, property, or safety of Klosanow, our
         employees, our community, or others, or to prevent violations of our
-        Terms of Service (/terms) or other applicable agreements. This includes,
+        Terms of Use (terms) or other applicable agreements. This includes,
         without limitation, exchanging information with other companies and
         organizations for fraud protection or responding to government requests.
       </Text>
