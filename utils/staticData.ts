@@ -77,6 +77,24 @@ export const aboutSlide = [
     title: "Our Mission",
     desc: " We aspire to create an easy to use, flexible and engaging platform where the educational goals of our customers are achieved",
   },
+  {
+    id: 3,
+    // img_url: "/images/about/vision.png",
+    title: "Our Benefits",
+    desc: " ...",
+  },
+  {
+    id: 4,
+    // img_url: "/images/about/vision.png",
+    title: "Teach with ease",
+    desc: "Create your lessons with easy-to-use tools and share with learners easily",
+  },
+  {
+    id: 5,
+    // img_url: "/images/about/vision.png",
+    title: "Rewatch Lessons",
+    desc: "Learners can rewatch video lessons as many times until they grasp the concept",
+  },
 ];
 
 interface FAQItem {
