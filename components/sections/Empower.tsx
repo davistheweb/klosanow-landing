@@ -40,7 +40,7 @@ export default function Empower() {
                 mb=".3rem"
                 fontWeight={400}
               >
-                Our online teaching and learning platform is both effective and
+                The Klosanow platform is both effective and
                 efficient, enabling learners access learning contents created by
                 tutors.
               </Text>
