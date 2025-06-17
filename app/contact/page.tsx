@@ -23,26 +23,6 @@ export default function ContactPage() {
           alignItems="center"
           flexDirection="column"
         >
-          <Box>
-            <Text
-              as="span"
-              fontSize="lg"
-              ml={"2rem"}
-              position={"relative"}
-              color={"neutral.10"}
-              _after={{
-                content: '""',
-                width: "40px",
-                height: "1px",
-                position: "absolute",
-                left: "-20%",
-                bottom: "0",
-                bg: "neutral.10",
-              }}
-            >
-              We reply under 24hrs
-            </Text>
-          </Box>
           <Heading
             fontSize={{ base: "3xl", md: "4xl" }}
             textAlign="center"

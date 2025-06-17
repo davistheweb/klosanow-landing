@@ -18,7 +18,7 @@ export const FaqElement: React.FC = () => (
       textAlign="center"
       fontSize="40px"
     >
-      FAQ
+      FAQS
     </Text>
     <Box as="div">
       <Accordion
@@ -32,7 +32,7 @@ export const FaqElement: React.FC = () => (
           <AccordionItem border="none" key={_i}>
             <h2>
               <AccordionButton border="none">
-                <Box as="span" flex="1" textAlign="left">
+                <Box as="span" flex="1" textAlign="left" fontWeight={600}>
                   {title}
                 </Box>
                 <AccordionIcon />

@@ -105,15 +105,15 @@ export const faqItems: FAQItem[] = [
   },
   {
     title: "Who is it for?",
-    text: "Klosanow is for tutors and learners across all levels of education. Primary - Secondary - Tertiary - Corporate Education.",
+    text: "Klosanow is for tutors and learners across all levels of education. \n Primary - Secondary - Tertiary - Corporate Education.",
   },
   {
     title: "What kind of App is Klosanow? ",
     text: "Klosanow is a web application and can be accessed through the web browser.",
   },
   {
-    title: 'Does the "create lesson" feature work on the mobile browser? ',
-    text: 'The "Create lesson " feature can only be accessed through a desktop/computer browser. (Use a real computer not desktop mode on mobile browser)',
+    title: 'Does the "Create a lesson" feature work on the mobile browser? ',
+    text: 'The "Create a lesson " feature can only be accessed through a desktop/computer browser. (Use a real computer not desktop mode on mobile browser)',
   },
   {
     title: "What browser does the other App's feature work with?",
