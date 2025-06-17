@@ -66,6 +66,12 @@ export const contactSchema = yup.object().shape({
 
 export const aboutSlide = [
   {
+    id: 3,
+    // img_url: "/images/about/vision.png",
+    title: "Our Benefits",
+    desc: "",
+  },
+  /* {
     id: 1,
     // img_url: "/images/about/vision.png",
     title: "Our Vision",
@@ -76,13 +82,7 @@ export const aboutSlide = [
     // img_url: "/images/about/vision.png",
     title: "Our Mission",
     desc: " We aspire to create an easy to use, flexible and engaging platform where the educational goals of our customers are achieved",
-  },
-  {
-    id: 3,
-    // img_url: "/images/about/vision.png",
-    title: "Our Benefits",
-    desc: " ...",
-  },
+  }, */
   {
     id: 4,
     // img_url: "/images/about/vision.png",
