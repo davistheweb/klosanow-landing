@@ -66,34 +66,25 @@ export const contactSchema = yup.object().shape({
 
 export const aboutSlide = [
   {
-    id: 3,
-    // img_url: "/images/about/vision.png",
+    id: 1,
     title: "Our Benefits",
     desc: "",
   },
-  /* {
-    id: 1,
-    // img_url: "/images/about/vision.png",
-    title: "Our Vision",
-    desc: " We aspire to create an online education platform that is designed to meet the diverse and dynamic educational requirements of induvials residing in Sub-Saharan Africa",
-  },
   {
     id: 2,
-    // img_url: "/images/about/vision.png",
-    title: "Our Mission",
-    desc: " We aspire to create an easy to use, flexible and engaging platform where the educational goals of our customers are achieved",
-  }, */
-  {
-    id: 4,
-    // img_url: "/images/about/vision.png",
     title: "Teach with ease",
-    desc: "Create your lessons with easy-to-use tools and share with learners easily",
+    desc: "Create your lessons with easy-to-use tools and share with learners easily.",
   },
   {
-    id: 5,
-    // img_url: "/images/about/vision.png",
+    id: 3,
+
     title: "Rewatch Lessons",
-    desc: "Learners can rewatch video lessons as many times until they grasp the concept",
+    desc: "Learners can rewatch video lessons as many times until they grasp the concept.",
+  },
+  {
+    id: 4,
+    title: "Time Flexibility",
+    desc: "Tutors get to teach when they want, learners learn when they can.",
   },
 ];
 
