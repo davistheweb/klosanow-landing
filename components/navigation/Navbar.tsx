@@ -95,7 +95,13 @@ export default function Navbar(): React.JSX.Element {
           <HStack spacing={8} alignItems={"center"}>
             <Box px={{ base: "none", md: "2rem" }}>
               <LinkComponent href="/">
-                <Image src={Logo} alt="logo" loading="lazy" />
+                <Image
+                  src={Logo}
+                  alt="logo"
+                  width={140}
+                  height={100}
+                  loading="lazy"
+                />
               </LinkComponent>
             </Box>
           </HStack>
@@ -171,7 +177,13 @@ export default function Navbar(): React.JSX.Element {
                 <DrawerCloseButton color="primary.70" />
                 <DrawerHeader>
                   <LinkComponent href="/">
-                    <Image src={Logo} alt="logo" loading="lazy" />
+                    <Image
+                      src={Logo}
+                      alt="logo"
+                      width={140}
+                      height={100}
+                      loading="lazy"
+                    />
                   </LinkComponent>
                 </DrawerHeader>
                 <DrawerBody>
