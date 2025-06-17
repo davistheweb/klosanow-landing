@@ -22,19 +22,15 @@ export default function Empower() {
             <Stack spacing={6} w={"full"} maxW={"lg"}>
               <Heading
                 fontSize={{ base: "3xl", md: "4xl" }}
-                textAlign={{ base: "center", md: "center", lg: "justify" }}
+                textAlign={{ base: "start" }}
               >
-                <Text color={"primary.100"} fontWeight={700}>
-                  Empowering
-                </Text>
-                <Text color={"primary.100"} fontWeight={700}>
-                  Learners and Tutors
-                </Text>
-                <Text color={"primary.100"} fontWeight={700}>
-                  Through Online
-                </Text>
-                <Text color={"primary.100"} fontWeight={700}>
-                  Education
+                <Text
+                  color={"primary.100"}
+                  fontWeight={700}
+                  lineHeight={"138%"}
+                  fontSize={{ base: "1.7rem", lg: "2.5rem" }}
+                >
+                  Empowering Learners and Tutors Through Online Education
                 </Text>
               </Heading>
               <Text
