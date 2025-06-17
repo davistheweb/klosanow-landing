@@ -57,7 +57,7 @@ export default function Empower() {
           ></Box>
           <Flex flex={1} position="relative">
             <Box
-            as="div"
+              as="div"
               position="absolute"
               width={{ base: "350px", md: "370px", lg: "400px" }}
               height={{ base: "351px", md: "371px", lg: "401px" }}
