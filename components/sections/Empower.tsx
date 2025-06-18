@@ -64,8 +64,9 @@ export default function Empower() {
               bgColor="neutral.30"
               borderRadius="full"
               top="20%"
+              left={{md: "-45%", lg: 0}}
             />
-            <Box as="div" zIndex={10}>
+            <Box as="div" width={"100%"} zIndex={10}>
               <Image
                 loading="lazy"
                 src="/images/general/frame.png"
