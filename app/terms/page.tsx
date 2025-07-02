@@ -4,7 +4,6 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 
 import { termsSection } from "@/utils";
 
-
 const TermsPage: React.FC = () => (
   <Box
     mt={{ base: "1rem", md: "3rem" }}
