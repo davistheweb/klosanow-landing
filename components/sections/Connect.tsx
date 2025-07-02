@@ -61,7 +61,7 @@ export default function Connect() {
                     opacity: 0.8,
                   }}
                 >
-                  Subscribe
+                  Join Waitlist
                 </Button>
               </InputRightElement>
             </InputGroup>

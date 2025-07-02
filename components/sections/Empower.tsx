@@ -1,12 +1,12 @@
 import React from "react";
 import { Box, Flex, Heading, Stack, Text } from "@chakra-ui/react";
-import Image from "next/image";
 // import empowerImg from "/public/images/general/frame.png";
+import { ImageSlide } from "../ui/ImageSlide";
 
 export default function Empower() {
   return (
     <>
-      <Box mt={{ base: "4rem", md: "12rem" }}>
+      <Box mt={{ base: "4rem", md: "10rem" }}>
         <Stack
           direction={{ base: "column", md: "row" }}
           px={{ base: "1rem", md: "6rem" }}
@@ -55,7 +55,12 @@ export default function Empower() {
             mt={{ md: "32rem" }}
             mr={{ md: "12rem" }}
           ></Box>
-          <Flex flex={1} position="relative">
+          <Flex
+            flex={1}
+            position="relative"
+            alignItems={"center"}
+            justifyContent={"center"}
+          >
             <Box
               as="div"
               position="absolute"
@@ -64,16 +69,10 @@ export default function Empower() {
               bgColor="neutral.30"
               borderRadius="full"
               top="20%"
-              left={{md: "-45%", lg: 0}}
+              left={{ md: "-45%", lg: 0 }}
             />
-            <Box as="div" width={"100%"} zIndex={10}>
-              <Image
-                loading="lazy"
-                src="/images/general/frame.png"
-                alt="empower-img"
-                width={500}
-                height={500}
-              />
+            <Box as="div" zIndex={10}>
+              <ImageSlide />
             </Box>
           </Flex>
         </Stack>

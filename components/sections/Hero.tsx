@@ -178,8 +178,11 @@ export default function Hero(): React.JSX.Element {
             mt={{ md: "14rem" }}
             mr={{ md: "8rem" }}
           ></Box>
+
           <Flex
             flex={1}
+            alignItems={"center"}
+            justifyContent={"center"}
             position="relative"
             as={motion.div}
             whileHover={{ scale: 1.1 }}
@@ -188,13 +191,23 @@ export default function Hero(): React.JSX.Element {
               x: [-100, 0],
             }}
             transition={{ duration: "0.5" }}
+            justifyItems={"center"}
           >
+            <Box
+              as="div"
+              position="absolute"
+              width={{ base: "360px", md: "360px", lg: "430px" }}
+              height={{ base: "361px", md: "361px", lg: "431px" }}
+              bgColor="secondary.30"
+              borderRadius="full"
+              justifySelf={"center"}
+              left={{ base: "-1", md: "-4" }}
+            />
             <Image
               loading="lazy"
               src="/images/general/hero.png"
               alt="hero-img"
               style={{
-                position: "absolute",
                 zIndex: "10",
               }}
               width={500}
@@ -213,7 +226,7 @@ export default function Hero(): React.JSX.Element {
               borderRadius="50%"
               right={{ base: "-65%", md: "-40%" }}
               zIndex={"1"}
-            ></Box>
+            />
           </Flex>
         </Stack>
       </Box>

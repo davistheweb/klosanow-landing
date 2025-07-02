@@ -31,6 +31,8 @@ export default function VisionSlide(): React.JSX.Element {
     speed: 500,
     slideToShow: 1,
     slidesToScroll: 1,
+    autoplaySpeed: 5000,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 480,
@@ -61,24 +63,14 @@ export default function VisionSlide(): React.JSX.Element {
                 flexDirection={{ base: "column", md: "row" }}
                 position="relative"
               >
-                {/* <Box>
-                  <Image
-                    loading="lazy"
-                    src={slideItem.img_url}
-                    alt="vision"
-                    width={687}
-                    height={412}
-                  />
-                </Box> */}
                 <EllipseElement />
-
                 <Box>
                   <Heading
                     fontSize={{ base: "3xl", md: "4xl" }}
                     fontWeight={500}
                     textAlign={{ base: "center" }}
                     color="black.60"
-                    zIndex={100}
+                    zIndex={1}
                   >
                     {title}
                   </Heading>
@@ -94,7 +86,7 @@ export default function VisionSlide(): React.JSX.Element {
                       textAlign={{ base: "center" }}
                       lineHeight="144%;"
                       width={{ base: "100%", md: "60%" }}
-                      zIndex={20}
+                      zIndex={1}
                     >
                       {desc}
                     </Text>
@@ -140,7 +132,7 @@ const EllipseElement: React.FC = () => (
       position="absolute"
       top={"1%"}
       left={"2%"}
-      // zIndex={-1}
+      className="zindex-hid"
     />
     <Box
       as="div"
@@ -154,7 +146,8 @@ const EllipseElement: React.FC = () => (
       position="absolute"
       top={"65%"}
       left={"139px"}
-      // zIndex={-1}
+      zIndex={0}
+      className="zindex-hid"
     />
     <Box
       as="div"
@@ -168,7 +161,8 @@ const EllipseElement: React.FC = () => (
       position="absolute"
       top={"23%"}
       left={"425px"}
-      // zIndex={-1}
+      zIndex={-0}
+      className="zindex-hid"
     />
     <Box
       as="div"
@@ -182,7 +176,8 @@ const EllipseElement: React.FC = () => (
       position="absolute"
       top={"35%"}
       left={"748px"}
-      // zIndex={-1}
+      zIndex={0}
+      className="zindex-hid"
     />
     <Box
       as="div"
@@ -196,6 +191,8 @@ const EllipseElement: React.FC = () => (
       position="absolute"
       top={"10%"}
       left={"1000px"}
+      zIndex={0}
+      className="zindex-hid"
     />
   </>
 );

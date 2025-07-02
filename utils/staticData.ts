@@ -1,6 +1,19 @@
 import { ReactNode } from "react";
 import * as yup from "yup";
 
+type TImgPaths = {
+  url: string;
+  height?: number;
+  width?: number;
+};
+
+const ImgPaths: TImgPaths[] = [
+  { url: "/images/general/slideImg.png", height: 400, width: 300 },
+  { url: "/images/general/slideImg1.png", height: 500, width: 300 },
+  { url: "/images/general/slideImg2.png", height: 500, width: 300 },
+  { url: "/images/general/slideImg3.png", height: 500, width: 300 },
+];
+
 const Links = [
   { title: "Home", href: "/" },
   { title: "About Us", href: "/about" },
@@ -303,6 +316,7 @@ const termsSection: TermsSection[] = [
 export {
   Links,
   MobileLinks,
+  ImgPaths,
   navFooter,
   authFooter,
   features,

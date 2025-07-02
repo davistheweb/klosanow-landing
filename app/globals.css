@@ -5,3 +5,7 @@ body {
   scroll-behavior: smooth;
   background: #fff;
 }
+
+.zindex-hid{
+  z-index: 0;
+}
