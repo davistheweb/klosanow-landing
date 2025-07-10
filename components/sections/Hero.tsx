@@ -213,7 +213,7 @@ export default function Hero(): React.JSX.Element {
               display="flex"
               justifyContent="center"
               alignItems="center"
-              ml={{ base: "15px", md: "0" }}
+              ml={{ base: "15px", lg: "0" }}
             >
               <Image
                 loading="lazy"
