@@ -198,21 +198,31 @@ export default function Hero(): React.JSX.Element {
               position="absolute"
               width={{ base: "360px", md: "360px", lg: "430px" }}
               height={{ base: "361px", md: "361px", lg: "431px" }}
-              bgColor="secondary.30"
+              bgColor="neutral.30"
               borderRadius="full"
               justifySelf={"center"}
               left={{ base: "-1", md: "-4" }}
             />
-            <Image
-              loading="lazy"
-              src="/images/general/hero.png"
-              alt="hero-img"
+            <Box
+              as="div"
+              width="100%"
+              height="100%"
               style={{
                 zIndex: "10",
               }}
-              width={800}
-              height={500}
-            />
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+              ml={{ base: "15px", md: "0" }}
+            >
+              <Image
+                loading="lazy"
+                src="/images/general/hero.png"
+                alt="hero-img"
+                width={900}
+                height={500}
+              />
+            </Box>
             <Box
               as="div"
               position="absolute"
@@ -221,7 +231,7 @@ export default function Hero(): React.JSX.Element {
               width="472px"
               height="472px"
               border={1}
-              borderColor={"secondary.30"}
+              borderColor={"neutral.30"}
               borderStyle={"solid"}
               borderRadius="50%"
               right={{ base: "-65%", md: "-40%" }}
