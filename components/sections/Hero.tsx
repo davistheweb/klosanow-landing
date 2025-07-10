@@ -219,8 +219,9 @@ export default function Hero(): React.JSX.Element {
                 loading="lazy"
                 src="/images/general/hero.png"
                 alt="hero-img"
-                width={900}
-                height={500}
+                width={800}
+                height={600}
+                style={{ width: "100%", height: "auto" }}
               />
             </Box>
             <Box
