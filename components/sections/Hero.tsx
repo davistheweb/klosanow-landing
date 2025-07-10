@@ -207,19 +207,24 @@ export default function Hero(): React.JSX.Element {
               as="div"
               width="100%"
               height="100%"
-              style={{
-                zIndex: "10",
-              }}
               display="flex"
               justifyContent="center"
               alignItems="center"
               ml={{ base: "15px", lg: "0" }}
+              // Key part below
+              transform={{
+                base: "scale(1.075)", // Bigger on mobile
+                md: "scale(1.05)", // Slightly bigger on tablet
+                lg: "scale(1)", // Normal on large screens
+              }}
+              transformOrigin="center"
+              zIndex="10"
             >
               <Image
                 loading="lazy"
                 src="/images/general/hero.png"
                 alt="hero-img"
-                width={800}
+                width={1000}
                 height={600}
                 style={{ width: "100%", height: "auto" }}
               />
