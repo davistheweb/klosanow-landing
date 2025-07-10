@@ -17,8 +17,8 @@ export function ImageSlide(): React.JSX.Element {
     autoplaySpeed: 2000,
     autoplay: true,
     centerMode: true,
-    centerPadding: "0px", // No extra padding
-    adaptiveHeight: true, // Adjusts height dynamically to the slide content
+    centerPadding: "0px",
+    adaptiveHeight: true,
     responsive: [
       {
         breakpoint: 480,
@@ -43,7 +43,7 @@ export function ImageSlide(): React.JSX.Element {
           <div key={_i} style={{ width: "100%", height: "100%" }}>
             <Box
               width="100%"
-              height="100%" // Enforce the full height
+              height="100%"
               display="flex"
               justifyContent="center"
               alignItems="center"
@@ -61,7 +61,7 @@ export function ImageSlide(): React.JSX.Element {
                   maxWidth: "100%",
                   maxHeight: "100%",
                   width: "auto",
-                  height: "100%", // Force height to match container
+                  height: "100%",
                   borderRadius: "50%",
                 }}
               />
