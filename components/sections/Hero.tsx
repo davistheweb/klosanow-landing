@@ -210,7 +210,7 @@ export default function Hero(): React.JSX.Element {
               style={{
                 zIndex: "10",
               }}
-              width={500}
+              width={800}
               height={500}
             />
             <Box

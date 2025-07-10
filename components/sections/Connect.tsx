@@ -11,7 +11,7 @@ import {
 export default function Connect() {
   return (
     <>
-      <Box mt={{ base: "4rem", md: "8rem" }} height="100%">
+      <Box mt={{ base: "0rem", md: "0rem" }} height="100%">
         <Box
           mt="3rem"
           bgImage="url('/images/general/connect.png')"

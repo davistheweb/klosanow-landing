@@ -58,8 +58,10 @@ export default function Empower() {
           <Flex
             flex={1}
             position="relative"
-            alignItems={"center"}
-            justifyContent={"center"}
+            alignItems="center"
+            justifyContent="center"
+            height="100%"
+            minHeight="400px"
           >
             <Box
               as="div"
@@ -69,9 +71,13 @@ export default function Empower() {
               bgColor="neutral.30"
               borderRadius="full"
               top="20%"
-              left={{ md: "-45%", lg: 0 }}
+              left={{ md: "-45%", lg: "0" }}
+              display="flex"
+              alignItems="center"
+              justifyContent="center"
+              overflow="hidden"
             />
-            <Box as="div" zIndex={10}>
+            <Box as="div" zIndex={10} width="100%" height="100%">
               <ImageSlide />
             </Box>
           </Flex>

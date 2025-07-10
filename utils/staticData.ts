@@ -8,10 +8,9 @@ type TImgPaths = {
 };
 
 const ImgPaths: TImgPaths[] = [
-  { url: "/images/general/slideImg.png", height: 400, width: 300 },
-  { url: "/images/general/slideImg1.png", height: 500, width: 300 },
-  { url: "/images/general/slideImg2.png", height: 500, width: 300 },
-  { url: "/images/general/slideImg3.png", height: 500, width: 300 },
+  { url: "/images/general/slideImg.png", height: 500, width: 500 },
+  { url: "/images/general/slideImg1.png", height: 500, width: 500 },
+  { url: "/images/general/slideImg2.png", height: 500, width: 500 },
 ];
 
 const Links = [
@@ -60,15 +59,15 @@ export interface SocialBtnProps {
 const features = [
   {
     src: "/images/features/mic.png",
-    desc: "Tutors create a video lesson, by verbally explaining the visuals lesson slides while screen recording.",
+    desc: "Tutors create a video lesson with a desktop, by recording their voice explanations and lesson slides.",
   },
   {
     src: "/images/features/videoIcon.png",
-    desc: "Learners access the video lessons by watching on the platform",
+    desc: "Learners access the video lessons by watching online or downoading for offline access through any device.",
   },
   {
     src: "/images/features/msgIcon.png",
-    desc: "Tutors and learners stay connected 24/7 through the study chat feature",
+    desc: "Tutors and learners stay connected 24/7 through the study chat feature.",
   },
 ];
 
