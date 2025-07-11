@@ -213,9 +213,9 @@ export default function Hero(): React.JSX.Element {
               ml={{ base: "15px", lg: "0" }}
               // Key part below
               transform={{
-                base: "scale(1.075)", // Bigger on mobile
-                md: "scale(1.05)", // Slightly bigger on tablet
-                lg: "scale(1)", // Normal on large screens
+                base: "scale(1.075)",
+                md: "scale(1.05)",
+                lg: "scale(1)",
               }}
               transformOrigin="center"
               zIndex="10"
